@@ -3,6 +3,7 @@ quickly create a digital ocean droplet
 
 ## setup 
 - python3 -m pip install python-digitalocean
+- add ssh public key to your digital ocean account
 - add digital ocean api to config.py
 
 ## running 
