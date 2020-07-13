@@ -6,7 +6,19 @@ quickly create a digital ocean droplet
 - add digital ocean api to config.py
 
 ## running 
-- create a new droplet with the name <name>: *python3 oceanic.py -n <name>*
-- delete a droplet: *python3 oceanic.py -n <name>*
-- get ip address of droplet: *python3 oceanic.py -n <name>*
-- list all droplets: *python3 oceanic.py -l*
+- create a new droplet with the name *droplet_name*: 
+```
+python3 oceanic.py -n droplet_name
+```
+- delete a droplet with the name *droplet_name*: 
+```
+python3 oceanic.py -n droplet_name
+```
+- get ip address of droplet with the name *droplet_name*: 
+```
+python3 oceanic.py -n droplet_name
+```
+- list all droplets: 
+```
+python3 oceanic.py -l
+```
