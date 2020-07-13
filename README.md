@@ -12,11 +12,11 @@ python3 oceanic.py -n droplet_name
 ```
 - delete a droplet with the name *droplet_name*: 
 ```
-python3 oceanic.py -n droplet_name
+python3 oceanic.py -d droplet_name
 ```
 - get ip address of droplet with the name *droplet_name*: 
 ```
-python3 oceanic.py -n droplet_name
+python3 oceanic.py -i droplet_name
 ```
 - list all droplets: 
 ```
